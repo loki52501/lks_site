@@ -26,8 +26,9 @@ const CollegeExperience = () => {
       <Carousel showThumbs={false} infiniteLoop={true}>
       {experiences.map((experience, index) => (
           <div className="college-experience-item" key={index}>
+         
             <h3>{experience.title}</h3>
-            <p>{experience.company}</p>
+            <p>{experience.organization}</p>
             <p>{experience.description}</p>
             <p>{experience.year}</p>
           </div>
