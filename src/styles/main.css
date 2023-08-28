@@ -19,7 +19,6 @@ body {
     background-color: #3498db;
     color: #fff;
   }
-  
 
 
   /* header */
@@ -172,12 +171,12 @@ body {
   
     @media (max-width: 767px) {
         .about-section {
-            width: 100%; /* Full width on smaller screens */
-            padding: 2rem; /* Decrease padding for better space utilization */
+            display: block; /* Stack content on mobile */
+            padding: 2rem; /* Adjust padding for better spacing on mobile */
           }
           
           .about-content {
-            text-align: center; /* Center align text on mobile */
+            margin-right: 0; /* Reset margin on mobile */
           }
           
           .about-heading {
@@ -189,13 +188,65 @@ body {
             font-size: 1rem; /* Decrease font size on mobile */
             margin-bottom: 1.5rem; /* Decrease margin for spacing */
           }
-    .interests-list {
-        flex-direction: column; /* Change to column layout */
-        align-items: center; /* Center items */
+          
+          .interests-section {
+            text-align: center; /* Center align on mobile */
+            margin-top: 2rem; /* Adjust margin for spacing */
+          }
+          
+          .interests-heading {
+            font-size: 1.5rem; /* Decrease font size on mobile */
+            margin-bottom: 1rem; /* Decrease margin for spacing */
+          }
+          
+          .interests-list {
+            flex-direction: column; /* Stack items vertically on mobile */
+            align-items: center; /* Center align items on mobile */
+          }
+          
+          .interest-item {
+            margin-bottom: 1rem; /* Adjust margin for spacing */
+          }
+          
+          .interest-icon {
+            width: 60px; /* Decrease icon size on mobile */
+            height: 60px; /* Decrease icon size on mobile */
+            margin-bottom: 0.5rem; /* Decrease margin for spacing */
+          }
+          
+          .icon-list {
+            margin-top: 2rem; /* Adjust margin for spacing */
+          }
+          
+          .icon {
+            margin: 1rem 0; /* Adjust margin for spacing */
+          }
+      .footer {
+        padding: 0rem 0; 
+       /* Increase padding for better spacing on phones */
+      }
+      .header {
+        padding: 2rem 0; /* Increase padding for better spacing on phones */
       }
     
-      .interest-item {
-        margin: 1rem 0; /* Adjust margin for spacing */
+      .hero h1 {
+        font-size: 2.5rem; /* Decrease font size on phones */
+        margin-bottom: 0.5rem; /* Decrease margin for spacing */
+      }
+    
+      .hero p {
+        font-size: 1.2rem; /* Decrease font size on phones */
+        margin-bottom: 1rem; /* Decrease margin for spacing */
+      }
+    
+      .cta-button {
+        font-size: 1rem; /* Decrease font size on phones */
+        padding: 0.3rem 0.8rem; /* Adjust padding for button on phones */
+      }
+      
+      .resume-link {
+        margin-top: 0.5rem; /* Decrease margin for spacing */
+        padding: 0.3rem 0.8rem; /* Adjust padding for link on phones */
       }
   }
   
