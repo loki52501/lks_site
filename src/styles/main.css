@@ -75,7 +75,7 @@ body {
   .image-container {
     text-align: center;
     margin-top: 2rem; /* Increase the margin for better spacing */
-  }
+  } 
   
   .profile-image {
     width: 150px;
@@ -169,11 +169,26 @@ body {
     margin-top: 1rem;
     font-size: 1.3rem;
   }
+  
     @media (max-width: 767px) {
-    .about-content {
-        margin-right: 0; /* Remove margin-right for phones */
-        margin-bottom: 2rem; /* Add margin-bottom for spacing */
-      }
+        .about-section {
+            width: 100%; /* Full width on smaller screens */
+            padding: 2rem; /* Decrease padding for better space utilization */
+          }
+          
+          .about-content {
+            text-align: center; /* Center align text on mobile */
+          }
+          
+          .about-heading {
+            font-size: 2rem; /* Decrease font size on mobile */
+            margin-bottom: 1rem; /* Decrease margin for spacing */
+          }
+          
+          .about-description {
+            font-size: 1rem; /* Decrease font size on mobile */
+            margin-bottom: 1.5rem; /* Decrease margin for spacing */
+          }
     .interests-list {
         flex-direction: column; /* Change to column layout */
         align-items: center; /* Center items */
