@@ -10,18 +10,6 @@ body {
     margin: 0 auto;
     padding: 2rem;
   }
-  .page-container {
-    display: flex;
-    width: 300%; /* 3 times the screen width to accommodate three pages */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .page {
-    flex: 1;
-    min-width: 100vw;
-    height: 100vh;
-    background-color: #f2f2f2;
-  }
   
 
   .footer {
