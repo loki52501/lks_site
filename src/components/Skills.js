@@ -2,9 +2,10 @@ import React from 'react';
 import '../styles/skills.css'
 const Skills = () => {
   const skillsList = [
-    'Quantum Computing',
-    'Blockchain Development',
-    'Cybersecurity',
+    'CPP',
+    'React & React Native',
+    'Javascript',
+    'Python',
     'Machine Learning',
     // Add more skills
   ];
