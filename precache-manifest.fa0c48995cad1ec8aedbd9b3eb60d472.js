@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "487a6f623ca9288acf27",
-    "url": "/lks_site/static/css/main.2db330cf.chunk.css"
+    "revision": "fdf83b1a5f93a80de80f",
+    "url": "/lks_site/static/css/main.e062be50.chunk.css"
   },
   {
-    "revision": "487a6f623ca9288acf27",
-    "url": "/lks_site/static/js/main.487a6f62.chunk.js"
+    "revision": "fdf83b1a5f93a80de80f",
+    "url": "/lks_site/static/js/main.fdf83b1a.chunk.js"
   },
   {
     "revision": "619ede3144beb078d66b",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/lks_site/static/js/runtime~main.6cec07da.js"
   },
   {
-    "revision": "aca12f5a7619b39277473f502ad11374",
+    "revision": "b603455d49e8decde6e51c65fb0745c4",
     "url": "/lks_site/index.html"
   }
 ];
