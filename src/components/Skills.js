@@ -6,6 +6,9 @@ const Skills = () => {
     'React & React Native',
     'Javascript',
     'Python',
+    'Postgresql',
+    'MongoDB',
+    'AWS & Azure',
     'Machine Learning',
     // Add more skills
   ];
