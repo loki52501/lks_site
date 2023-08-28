@@ -5,6 +5,7 @@ const About = () => {
 
   
     return (
+        <div className="page">
         <section className="about-section">
     
       <div className="about-content">
@@ -31,6 +32,7 @@ const About = () => {
       </div>
         {/* Rest of the content */}
       </section>
+      </div>
     );
   };
   

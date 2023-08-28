@@ -9,19 +9,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="social-links">
         <a  href="mailto:lokeshlks01@gmail.com" >
-          <Mail style={{
-          margin:" 40 40 40 auto",
-        }} color="white" size={48} />
+          <Mail  color="white" size={28} />
         </a>
         <a href="https://www.linkedin.com/in/lks-lokesh-6935b0197/" target="_blank" rel="noopener noreferrer" >
-          <Linkedin  style={{
-          margin:" 40 40 40 auto",
-        }} color="white" size={48} />
+          <Linkedin  color="white" size={28} />
         </a>
         <a href="https://github.com/loki52501" target="_blank" rel="noopener noreferrer" >
-          <GitHub  style={{
-          margin:" 40 40 40 auto",
-        }} color="white" size={48} />
+          <GitHub   color="white" size={28} />
         </a>
       </div>
       <p>&copy; {new Date().getFullYear()} Lokesh LKS. All rights reserved.</p>
